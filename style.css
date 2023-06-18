@@ -1,8 +1,5 @@
 body {
-    font-family: sans-serif;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-
+    font-family: sans-serif;   
 }
 
 .stop-watch-container {
