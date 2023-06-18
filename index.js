@@ -15,6 +15,12 @@ var timeArray = [0, 0, 0, 0, 0, 0];
 var startWatchInterval;
 
 var startStopwatch = function (event) {
+
+    event.preventDefault();
+
+    // clear already running inteval
+    if(startWatchInterval != undefined)
+     clearInterval(startWatchInterval);
     // once start button is click start the interval
 
     // get the reference to current interval in order to clear it if required

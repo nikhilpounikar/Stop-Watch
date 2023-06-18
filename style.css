@@ -30,7 +30,7 @@ body {
 }
 
 .button {
-
+    cursor: pointer;
     background-image: linear-gradient(to right, #4a29b6, #b745db);
     width: 10vh;
     margin: 2px;
