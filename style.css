@@ -1,5 +1,7 @@
 body {
     font-family: sans-serif;   
+    /* background-color: #b845db; */
+    background-image: linear-gradient(to right, #4a29b6, #b745db);
 }
 
 .stop-watch-container {
